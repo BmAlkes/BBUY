@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add axios
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Bmalkes\bin;C:\Users\Bmalkes\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Bmalkes\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\PostgreSQL\12\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Bmalkes\AppData\Local\Microsoft\WindowsApps;C:\Users\Bmalkes\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bmalkes\AppData\Roaming\npm;C:\Users\Bmalkes\AppData\Local\Yarn\bin;C:\tools\dart-sdk\bin;C:\Users\Bmalkes\AppData\Roaming\Pub\Cache\bin;C:\Users\Bmalkes\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\Bmalkes\AppData\Local\Yarn\Cache\v6\npm-querystring-0.2.0-b209849203bb25df820da756e747005878521620-integrity\node_modules\querystring\package.json' -> 'C:\Users\Bmalkes\Desktop\eccomerce js-node\frontEnd\node_modules\querystring\package.json'
+
+npm manifest: 
+  {
+    "name": "frontend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "webpack serve --watch-content-base --open",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "webpack": "^5.21.2",
+      "webpack-cli": "^4.5.0",
+      "webpack-dev-server": "^3.11.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
