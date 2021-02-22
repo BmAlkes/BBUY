@@ -42,6 +42,6 @@ app.use((err,req,res,next)=>{
   res.status(status).send({ message:err.message})
   
 })
-app.listen(5000, () => {
+app.listen(config.PORT, () => {
   console.log("server at http://localhost:5000");
 });
